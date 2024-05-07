@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8)),url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.logo{
+    width: 270px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.9s;
+     
+}
+
+.logo:hover{
+    filter:saturate(800%);
+}
+
+.header{
+    height: 10%;
+
+}
+
+.header .get:hover{
+
+    background-color: transparent;
+
+}
+
+.header .btn{
+    border-radius: 10px;
+    background-color: #107faD;
+    padding: 7px 20px;
+    float: right;
+    margin-top: 15px;
+}
+
+.movie_details{
+    margin: 3%;
+}
+
+.cast{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cast img{
+    transition: 0.7s;
+}
+
+.cast img:hover{
+    height: 100px;
+    width: 100px;
+    transform: translate3d(10px);
+    border-radius: 50%;
+    
+}
+
+.left_box .btn2{
+    background-color: transparent;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+.left_box .download{
+    background-color: transparent;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.left_box .download:hover{
+    background-color: #107faD;
+}
+
+.left_box .btn2:hover {
+    background-color: #107faD;
+}
+
+.poster{
+    height: 340px;
+    width: 300px;
+    box-shadow: -4px 4px 5px 0 #000;
+    transition: 1s;
+  
+}
+
+.poster:hover{
+    filter: brightness(50%);
+    transform: translateX(10px);
+}
+
+.upcomeing img{
+
+    width: 100%;
+
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.upcomeing img:hover {
+
+    transform:translateY(-12px);
+}
+
+
